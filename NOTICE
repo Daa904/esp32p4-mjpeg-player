@@ -1,0 +1,19 @@
+ESP32-P4 MJPEG Player
+Copyright 2026 Daa904
+
+This project is licensed under the Apache License, Version 2.0.
+The project author's copyright applies to original project material and
+local modifications, not to the third-party code included below.
+
+This project includes software developed by Espressif Systems (Shanghai) CO LTD.
+The vendored AVI player and JD9365 driver retain their original copyright
+and Apache-2.0 notices in their source files.
+
+AVI player upstream:
+https://github.com/espressif/esp-iot-solution
+Commit: 88152bff24d5fbc05ff2ffed3d5208c247711ded
+Path: components/avi_player
+
+See THIRD_PARTY.md and the component PATCHES.md for source provenance and
+local modifications. The original AVI player license remains included at
+project/flash_video_mvp/components/avi_player/license.txt.

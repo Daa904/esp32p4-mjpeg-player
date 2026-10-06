@@ -2,6 +2,9 @@
  * SPDX-FileCopyrightText: 2024-2025 Espressif Systems (Shanghai) CO LTD
  *
  * SPDX-License-Identifier: Apache-2.0
+ *
+ * Local modifications: movi end-boundary and frame-read validation.
+ * See PATCHES.md for details.
  */
 #include <stdio.h>
 #include <string.h>

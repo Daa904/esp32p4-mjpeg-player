@@ -2,6 +2,9 @@
  * SPDX-FileCopyrightText: 2024 Espressif Systems (Shanghai) CO LTD
  *
  * SPDX-License-Identifier: Apache-2.0
+ *
+ * Local adaptations: supplier panel initialization and omitted unused ID read.
+ * See the repository THIRD_PARTY.md for provenance and modification details.
  */
 
 #include "soc/soc_caps.h"

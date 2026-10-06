@@ -26,7 +26,7 @@ git add .
 git status --short
 ```
 
-检查清单应包含 README、源码、脚本、许可证及 docs；不应出现 local-config.ps1、mp4 视频、clip.avi、build、Flash 备份。根目录 LICENSE 按作者确认的许可证加入后再提交。
+检查清单应包含 README、源码、脚本、LICENSE、NOTICE 及 docs；不应出现 local-config.ps1、mp4 视频、clip.avi、build、Flash 备份。作者已确认采用 Apache-2.0，根目录 LICENSE 已加入。
 
 ```powershell
 git commit -m "Initial release: MIPI timing fix and MP4 flashing workflow"

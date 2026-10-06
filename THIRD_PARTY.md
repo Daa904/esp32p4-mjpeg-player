@@ -1,5 +1,7 @@
 # 第三方来源与本地修改
 
+项目整体采用 Apache-2.0，许可证全文见根目录 LICENSE，版权与来源摘要见 NOTICE。以下第三方文件保留原许可证及版权声明；项目许可证不将第三方代码的版权归为作者所有。
+
 ## AVI 播放器
 
 - 上游：https://github.com/espressif/esp-iot-solution

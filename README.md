@@ -152,6 +152,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command '. .\local-config.ps1; & 
 
 ## 来源与许可证
 
-AVI 播放器来自 Espressif `esp-iot-solution` 的固定提交，JD9365 驱动保留 Espressif 的 Apache-2.0 文件声明。来源及本地改动见 [THIRD_PARTY.md](THIRD_PARTY.md)。根目录 LICENSE 将按作者选择加入，第三方原许可证与声明必须保留。
+本项目采用 [Apache License 2.0](LICENSE)。项目原创部分及本地修改的版权归 Daa904；第三方组件保留其原作者版权、许可证和声明，详见 [NOTICE](NOTICE) 与 [THIRD_PARTY.md](THIRD_PARTY.md)。
+
+AVI 播放器来自 Espressif `esp-iot-solution` 的固定提交，JD9365 驱动保留 Espressif 的 Apache-2.0 文件声明；再分发时应一并保留这些文件。
 
 参考实现：[ESP-IDF 5.5 HAL 时序代码](https://github.com/espressif/esp-idf/blob/v5.5.5/components/hal/mipi_dsi_hal.c)、[官方分区 mmap 示例](https://github.com/espressif/esp-idf/tree/v5.5.5/examples/storage/partition_api/partition_mmap)、[Espressif JPEG 文档](https://docs.espressif.com/projects/esp-idf/en/latest/esp32p4/api-reference/peripherals/jpeg.html)。
