@@ -1,0 +1,38 @@
+{
+  "layout": {
+    "nvs": {
+      "offset": 36864,
+      "bytes": 24576,
+      "type": 1,
+      "subtype": 2
+    },
+    "phy_init": {
+      "offset": 61440,
+      "bytes": 4096,
+      "type": 1,
+      "subtype": 1
+    },
+    "factory": {
+      "offset": 65536,
+      "bytes": 2097152,
+      "type": 0,
+      "subtype": 0
+    },
+    "video": {
+      "offset": 2162688,
+      "bytes": 30408704,
+      "type": 1,
+      "subtype": 6
+    }
+  },
+  "unused_flash_bytes": 983040,
+  "app_bytes": 284160,
+  "video_bytes": 27277174,
+  "seconds": 20,
+  "frames": 600,
+  "converter_tests_passed": 6,
+  "partition_table_verified": true,
+  "flash_includes_video": true,
+  "device_flashed": false,
+  "hardware_playback_verified": false
+}

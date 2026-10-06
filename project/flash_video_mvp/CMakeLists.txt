@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.16)
+set(COMPONENTS main)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(flash_video_mvp)
+
+# Include the raw AVI data partition in the normal `idf.py flash` workflow.
+set(video_file "${CMAKE_CURRENT_SOURCE_DIR}/main/clip.avi")
+set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS "${video_file}")
+partition_table_get_partition_info(video_partition_size "--partition-name video" "size")
+if(NOT video_partition_size)
+    message(FATAL_ERROR "Missing video partition")
+endif()
+math(EXPR video_partition_bytes "${video_partition_size}")
+file(SIZE "${video_file}" video_bytes)
+if(video_bytes GREATER video_partition_bytes)
+    message(FATAL_ERROR "Video file too large for video partition")
+endif()
+esptool_py_flash_to_partition(flash "video" "${video_file}")

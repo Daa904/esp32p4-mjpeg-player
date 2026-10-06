@@ -1,0 +1,4 @@
+https://github.com/espressif/esp-iot-solution
+commit: 88152bff24d5fbc05ff2ffed3d5208c247711ded
+path: components/avi_player
+Vendored sources; local changes are documented in PATCHES.md.

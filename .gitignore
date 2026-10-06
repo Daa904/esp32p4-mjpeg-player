@@ -1,0 +1,22 @@
+# Machine-specific configuration and build products
+local-config.ps1
+.vscode/
+**/build/
+**/sdkconfig
+**/sdkconfig.old
+**/sdkconfig.*.bak
+**/logs/
+**/preview/
+**/__pycache__/
+.venv/
+# User videos and generated assets
+mp4/*
+!mp4/.gitkeep
+project/flash_video_mvp/main/clip.avi
+project/flash_video_mvp/main/clip_info.h
+# Local backups and archives
+backup/
+backups/
+*.zip
+*.bin
+*.elf

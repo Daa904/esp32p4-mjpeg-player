@@ -1,0 +1,5 @@
+menu "Flash video MVP"
+    config MVP_DIAGNOSTIC_BOOT
+        bool "Wait for visual confirmation before playback"
+        default n
+endmenu

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-06",
+  "esp_idf": "5.5.5",
+  "shell": "Windows PowerShell 5.1",
+  "fresh_build_from_sdkconfig_defaults": true,
+  "conversion_integration_tests_passed": 6,
+  "seconds": 20,
+  "fps": 30,
+  "frames": 600,
+  "app_bytes": 284160,
+  "video_bytes": 27277174,
+  "flash_includes_video": true,
+  "firmware_and_vendored_sources_match_development_project": true,
+  "device_flashed": false,
+  "hardware_playback_verified": false
+}

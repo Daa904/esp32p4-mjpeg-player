@@ -1,0 +1,28 @@
+[
+  {
+    "requested_mhz": 68,
+    "source_mhz": 240,
+    "divider": 4.0,
+    "actual_mhz": 60.0,
+    "htotal": 776.0,
+    "hdisp": 800,
+    "hsync": 20,
+    "hbp": 20,
+    "hfp": -64.0,
+    "valid": false,
+    "refresh_hz": 58.398480082225056
+  },
+  {
+    "requested_mhz": 60,
+    "source_mhz": 240,
+    "divider": 4.0,
+    "actual_mhz": 60.0,
+    "htotal": 880.0,
+    "hdisp": 800,
+    "hsync": 20,
+    "hbp": 20,
+    "hfp": 40.0,
+    "valid": true,
+    "refresh_hz": 51.496841527053
+  }
+]
